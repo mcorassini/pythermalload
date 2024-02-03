@@ -1,0 +1,2062 @@
+/*= Style for mainwindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: white;
+
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for button to change menu style START
+  ==================================================== */
+	#change_btn {
+		padding: 5px;
+		border: none;
+		width: 30px;
+		height: 30px;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for header widget START
+  ==================================================== */
+	#widget {
+		background-color: white;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon only START
+  ==================================================== */
+  	/* style for widget */
+	#icon_only_widget {
+		background-color: #001219;
+		width:50px;
+	}
+
+    /* style for QPushButton and QLabel */
+	#icon_only_widget QPushButton, QLabel {
+		height:50px;
+		border:none;
+		/* border-bottom: 1px solid #b0b0b0; */
+	}
+
+	#icon_only_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon and text START
+  ==================================================== */
+	/* style for widget */
+	#full_menu_widget {
+		background-color: #001219;
+	}
+
+	/* style for QPushButton */
+	#full_menu_widget QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color: #788596;
+	}
+
+	#full_menu_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#full_menu_widget QPushButton:checked {
+		color: #fff;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for parede_id
+  ==================================================== */
+	#parede_id {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		min-width: 900px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#parede_id:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#parede_id:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#parede_id_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for parede combobox
+  ==================================================== */
+	#parede_cbox {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		min-width: 900px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#parede_cbox:drop-down {
+		subcontrol-position: center right;
+		width: 0px
+	}
+
+	#parede_cbox QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#parede_cbox:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#parede_cbox:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#parede_cbox:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#parede_cbox_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for tinta parede combobox
+  ==================================================== */
+	#tinta_cbox_pr {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		width: 275px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#tinta_cbox_pr:drop-down {
+		subcontrol-position: center right;
+		width: 0px	
+	}
+
+	#tinta_cbox_pr QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#tinta_cbox_pr:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#tinta_cbox_pr:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#tinta_cbox_pr:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#tinta_cbox_pr:disabled {
+		background-color: #adb5bd;
+		color: #ced4da;
+
+	}
+
+	#tinta_cbox_pr:drop-down:disabled {
+		background-color: gray;
+	}
+
+	#tinta_cbox_pr_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for area parede box
+  ==================================================== */
+	#area_box_pr {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		max-width: 100px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#area_box_pr:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#area_box_pr:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#area_box_pr_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for orientacao parede combobox
+  ==================================================== */
+	#orientacao_cbox_pr {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		width: 90px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#orientacao_cbox_pr:drop-down {
+		subcontrol-position: center right;
+		width: 0px
+	}
+
+	#orientacao_cbox_pr QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#orientacao_cbox_pr_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+
+	#orientacao_cbox_pr:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#orientacao_cbox_pr:focus {
+		border: 1px solid #0A9396;;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for vidro parede checkbox
+  ==================================================== */
+	#vidro_box_pr {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		width: 44px;
+		height: 22px;
+	}
+
+	#vidro_box_pr::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#vidro_box_pr::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#vidro_box_pr::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#vidro_box_pr::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for interna parede checkbox
+  ==================================================== */
+	#interna_box_pr {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		width: 78px;
+		height: 22px;
+	}
+
+	#interna_box_pr::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#interna_box_pr::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#interna_box_pr::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#interna_box_pr::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for amb_externo parede checkbox
+  ==================================================== */
+	#amb_externo_box_pr {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#amb_externo_box_pr::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#amb_externo_box_pr::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#amb_externo_box_pr::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#amb_externo_box_pr::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for qtablewidget da parede
+  ==================================================== */
+	#tabela_parede {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: none;
+	}
+
+	#tabela_parede QHeaderView::section {
+		color: white;
+		background-color: #0A9396;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+	}
+
+	#tabela_parede::item {
+		border: 1px solid #001219;	
+	}
+
+	#tabela_parede::item:selected {
+		background-color: rgba( 86, 101, 115, 0.5);	
+		color: #001219;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for parede button
+  ==================================================== */
+	#parede_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#parede_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#parede_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for porta_id
+  ==================================================== */
+	#porta_id {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		min-width: 900px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#porta_id:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#porta_id:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#porta_id_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for porta combobox
+  ==================================================== */
+	#porta_cbox {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		min-width: 900px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#porta_cbox:drop-down {
+		subcontrol-position: center right;
+		width: 0px
+	}
+
+	#porta_cbox QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#porta_cbox:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#porta_cbox:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#porta_cbox:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#porta_cbox_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for tinta combobox porta
+  ==================================================== */
+	#tinta_cbox_pt {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		width: 275px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#tinta_cbox_pt:drop-down {
+		subcontrol-position: center right;
+		width: 0px	
+	}
+
+	#tinta_cbox_pt QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#tinta_cbox_pt:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#tinta_cbox_pt:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#tinta_cbox_pt:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#tinta_cbox_pt:disabled {
+		background-color: #adb5bd;
+		color: #ced4da;
+
+	}
+
+	#tinta_cbox_pt:drop-down:disabled {
+		background-color: gray;
+	}
+
+	#tinta_cbox_pt_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for area box porta
+  ==================================================== */
+	#area_box_pt {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		max-width: 100px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#area_box_pt:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#area_box_pt:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#area_box_pt_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for orientacao combobox porta
+  ==================================================== */
+	#orientacao_cbox_pt {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		width: 90px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#orientacao_cbox_pt:drop-down {
+		subcontrol-position: center right;
+		width: 0px
+	}
+
+	#orientacao_cbox_pt QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#orientacao_cbox_pt_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+
+	#orientacao_cbox_pt:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#orientacao_cbox_pt:focus {
+		border: 1px solid #0A9396;;
+	}
+
+
+/*= END
+  ==================================================== */
+  
+ /*= Style for pintura checkbox porta
+  ==================================================== */
+	#pintura_box_pt {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#pintura_box_pt::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#pintura_box_pt::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#pintura_box_pt::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#pintura_box_pt::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+	
+	#pintura_box_pt:disabled {
+		color: #adb5bd;
+	}
+	
+	#pintura_box_pt::indicator:disabled {
+		border: 1px solid #adb5bd;;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for vidro checkbox porta
+  ==================================================== */
+	#vidro_box_pt {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		width: 44px;
+		height: 22px;
+	}
+
+	#vidro_box_pt::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#vidro_box_pt::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#vidro_box_pt::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#vidro_box_pt::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for interna checkbox porta
+  ==================================================== */
+	#interna_box_pt {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		width: 78px;
+		height: 22px;
+	}
+
+	#interna_box_pt::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#interna_box_pt::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#interna_box_pt::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#interna_box_pt::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for amb_externo checkbox porta
+  ==================================================== */
+	#amb_externo_box_pt {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#amb_externo_box_pt::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#amb_externo_box_pt::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#amb_externo_box_pt::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#amb_externo_box_pt::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for qtablewidget da porta
+  ==================================================== */
+	#tabela_porta {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: none;
+	}
+
+	#tabela_porta QHeaderView::section {
+		color: white;
+		background-color: #0A9396;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+	}
+
+	#tabela_porta::item {
+		border: 1px solid #001219;	
+	}
+
+	#tabela_porta::item:selected {
+		background-color: rgba( 86, 101, 115, 0.5);	
+		color: #001219;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for porta button
+  ==================================================== */
+	#porta_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#porta_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#porta_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for janela_id
+  ==================================================== */
+	#janela_id {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		min-width: 900px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#janela_id:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#janela_id:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#janela_id_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for janela combobox
+  ==================================================== */
+	#janela_cbox {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		min-width: 900px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#janela_cbox:drop-down {
+		subcontrol-position: center right;
+		width: 0px
+	}
+
+	#janela_cbox QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#janela_cbox:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#janela_cbox:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#janela_cbox:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#janela_cbox_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for area box janela
+  ==================================================== */
+	#area_box_jn {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		max-width: 100px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#area_box_jn:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#area_box_jn:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#area_box_jn_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for orientacao combobox janela
+  ==================================================== */
+	#orientacao_cbox_jn {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		width: 90px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#orientacao_cbox_jn:drop-down {
+		subcontrol-position: center right;
+		width: 0px
+	}
+
+	#orientacao_cbox_jn QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#orientacao_cbox_jn_label {
+		font: 8pt"Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+
+	#orientacao_cbox_jn:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#orientacao_cbox_jn:focus {
+		border: 1px solid #0A9396;;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for interna checkbox janela
+  ==================================================== */
+	#interna_box_jn {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		width: 78px;
+		height: 22px;
+	}
+
+	#interna_box_jn::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#interna_box_jn::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#interna_box_jn::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#interna_box_jn::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for amb_externo checkbox janela
+  ==================================================== */
+	#amb_externo_box_jn {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#amb_externo_box_jn::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#amb_externo_box_jn::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#amb_externo_box_jn::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#amb_externo_box_jn::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for qtablewidget da janela
+  ==================================================== */
+	#tabela_janela {
+		background-color: white;
+		color: #001219;
+		font: 9jn "Open Sans SemiCondensed";
+		border: none;
+	}
+
+	#tabela_janela QHeaderView::section {
+		color: white;
+		background-color: #0A9396;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+	}
+
+	#tabela_janela::item {
+		border: 1px solid #001219;	
+	}
+
+	#tabela_janela::item:selected {
+		background-color: rgba( 86, 101, 115, 0.5);	
+		color: #001219;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for janela button
+  ==================================================== */
+	#janela_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#janela_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#janela_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+/*= Style for cobertura_id
+  ==================================================== */
+	#cobertura_id {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		min-width: 900px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#cobertura_id:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#cobertura_id:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#cobertura_id_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for cobertura combobox
+  ==================================================== */
+	#cobertura_cbox {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		min-width: 900px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#cobertura_cbox:drop-down {
+		subcontrol-position: center right;
+		width: 0px
+	}
+
+	#cobertura_cbox QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#cobertura_cbox:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#cobertura_cbox:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#cobertura_cbox:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#cobertura_cbox_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for area cobertura box
+  ==================================================== */
+	#area_box_cb {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		max-width: 100px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#area_box_cb:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#area_box_cb:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#area_box_cb_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for vidro cobertura checkbox
+  ==================================================== */
+	#vidro_box_cb {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		width: 44px;
+		height: 22px;
+	}
+
+	#vidro_box_cb::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#vidro_box_cb::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#vidro_box_cb::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#vidro_box_cb::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for interna cobertura checkbox
+  ==================================================== */
+	#interna_box_cb {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		
+		height: 22px;
+	}
+
+	#interna_box_cb::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#interna_box_cb::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#interna_box_cb::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#interna_box_cb::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for amb_externo cobertura checkbox
+  ==================================================== */
+	#amb_externo_box_cb {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#amb_externo_box_cb::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#amb_externo_box_cb::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#amb_externo_box_cb::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#amb_externo_box_cb::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for qtablewidget da cobertura
+  ==================================================== */
+	#tabela_cobertura {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: none;
+	}
+
+	#tabela_cobertura QHeaderView::section {
+		color: white;
+		background-color: #0A9396;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+	}
+
+	#tabela_cobertura::item {
+		border: 1px solid #001219;	
+	}
+
+	#tabela_cobertura::item:selected {
+		background-color: rgba( 86, 101, 115, 0.5);	
+		color: #001219;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for cobertura button
+  ==================================================== */
+	#cobertura_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#cobertura_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#cobertura_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for iluminacao cbox
+  ==================================================== */
+	#iluminacao {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#iluminacao:drop-down {
+		subcontrol-position: center right;
+		width: 0px	
+	}
+
+	#iluminacao QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#iluminacao:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#iluminacao:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#iluminacao:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#iluminacao_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+  
+ /*= Style for iluminacao area
+  ==================================================== */
+ 	#area_ilu {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		max-width: 120px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#area_ilu:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#area_ilu:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#area_ilu_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 120px;
+	}
+	
+/*= END
+  ==================================================== */
+
+ /*= Style for iluminacao button
+  ==================================================== */
+	#iluminacao_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#iluminacao_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#iluminacao_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for pessoa_atv cbox
+  ==================================================== */
+	#pessoa_atv {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#pessoa_atv:drop-down {
+		subcontrol-position: center right;
+		width: 0px	
+	}
+
+	#pessoa_atv QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#pessoa_atv:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#pessoa_atv:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#pessoa_atv:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#pessoa_atv_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+  
+ /*= Style for quantidade pessoas
+  ==================================================== */
+ 	#quantidade_pessoas {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		max-width: 120px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#quantidade_pessoas:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#quantidade_pessoas:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#quantidade_pessoas_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 120px;
+	}
+	
+/*= END
+  ==================================================== */
+ 
+ /*= Style for pessoa_atv button
+  ==================================================== */
+	#pessoa_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#pessoa_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#pessoa_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for equipamento cbox
+  ==================================================== */
+	#equipamento {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#equipamento:drop-down {
+		subcontrol-position: center right;
+		width: 0px	
+	}
+
+	#equipamento QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#equipamento:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#equipamento:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#equipamento:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#equipamento_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+	
+/*= END
+  ==================================================== */
+  
+ /*= Style for quantidade equipamentos
+  ==================================================== */
+ 	#quantidade_equipamentos {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		max-width: 120px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#quantidade_equipamentos:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#quantidade_equipamentos:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#quantidade_equipamentos_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 120px;
+	}
+	
+/*= END
+  ==================================================== */
+ 
+ /*= Style for equipamento button
+  ==================================================== */
+	#equipamento_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#equipamento_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#equipamento_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for qtablewidget da cobertura
+  ==================================================== */
+	#tabela_interna {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: none;
+	}
+
+	#tabela_interna QHeaderView::section {
+		color: white;
+		background-color: #0A9396;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+	}
+
+	#tabela_interna::item {
+		border: 1px solid #001219;	
+	}
+
+	#tabela_interna::item:selected {
+		background-color: rgba( 86, 101, 115, 0.5);	
+		color: #001219;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for outra id
+  ==================================================== */
+ 	#outra_id {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#outra_id:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#outra_id:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#outra_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 120px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for valor_outra id
+  ==================================================== */
+ 	#valor_outra {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#valor_outra:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#valor_outra:focus {
+		border: 1px solid #0A9396;;
+	}
+
+	#valor_outra_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 120px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for watt checkbox
+  ==================================================== */
+	#watt_box {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#watt_box::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#watt_box::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#watt_box::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#watt_box::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for btuh checkbox
+  ==================================================== */
+	#btuh_box {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#btuh_box::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#btuh_box::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#btuh_box::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#btuh_box::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for tr checkbox
+  ==================================================== */
+	#tr_box {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#tr_box::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#tr_box::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#tr_box::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#tr_box::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for sensivel checkbox
+  ==================================================== */
+	#sensivel_box {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#sensivel_box::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#sensivel_box::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#sensivel_box::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#sensivel_box::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for latente checkbox
+  ==================================================== */
+	#latente_box {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		height: 22px;
+	}
+
+	#latente_box::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#latente_box::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#latente_box::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#latente_box::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+/*= END
+  ==================================================== */
+
+ /*= Style for outra button
+  ==================================================== */
+	#outra_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#outra_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#outra_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for qtablewidget da cobertura
+  ==================================================== */
+	#tabela_outra {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: none;
+	}
+
+	#tabela_outra QHeaderView::section {
+		color: white;
+		background-color: #0A9396;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+	}
+
+	#tabela_outra::item {
+		border: 1px solid #001219;	
+	}
+
+	#tabela_outra::item:selected {
+		background-color: rgba( 86, 101, 115, 0.5);	
+		color: #001219;
+	}
+
+
+/*= END
+  ==================================================== */

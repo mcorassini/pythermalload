@@ -1,0 +1,35 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/add.ico</file>
+    <file>icon/outros_off.svg</file>
+    <file>icon/outros_on.svg</file>
+    <file>icon/interno_off.svg</file>
+    <file>icon/interno_on.svg</file>
+    <file>icon/add_button.svg</file>
+    <file>icon/cobertura_off.svg</file>
+    <file>icon/add.svg</file>
+    <file>icon/cobertura_on.svg</file>
+    <file>icon/eletronico_off.svg</file>
+    <file>icon/eletronico_on.svg</file>
+    <file>icon/iluminacao_off.svg</file>
+    <file>icon/iluminacao_on.svg</file>
+    <file>icon/janela_off.svg</file>
+    <file>icon/janela_on.svg</file>
+    <file>icon/parede_off.svg</file>
+    <file>icon/parede_on.svg</file>
+    <file>icon/pessoas_off.svg</file>
+    <file>icon/pessoas_on.svg</file>
+    <file>icon/porta_off.svg</file>
+    <file>icon/porta_on.svg</file>
+    <file>icon/logo.svg</file>
+    <file>icon/menu.svg</file>
+    <file>icon/proj_detail_off.svg</file>
+    <file>icon/proj_detail_on.svg</file>
+    <file>icon/results_off.svg</file>
+    <file>icon/results_on.svg</file>
+    <file>icon/update_off.svg</file>
+    <file>icon/update_on.svg</file>
+    <file>icon/zones_off.svg</file>
+    <file>icon/zones_on.svg</file>
+  </qresource>
+</RCC>

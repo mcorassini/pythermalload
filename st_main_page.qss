@@ -1,0 +1,697 @@
+/*= Style for mainwindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: white;
+	}
+
+	#Dialog {
+		background-color: white;
+	}
+
+	#Novo_Proj_Dialog {
+		background-color: white;
+	}
+
+	#Load_Proj_Dialog {
+		background-color: white;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for button to change menu style START
+  ==================================================== */
+	#change_btn {
+		padding: 5px;
+		border: none;
+		width: 30px;
+		height: 30px;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for header widget START
+  ==================================================== */
+	#widget {
+		background-color: white;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon only START
+  ==================================================== */
+  	/* style for widget */
+	#icon_only_widget {
+		background-color: #001219;
+		width:50px;
+	}
+
+    /* style for QPushButton and QLabel */
+	#icon_only_widget QPushButton, QLabel {
+		height:50px;
+		border:none;
+		/* border-bottom: 1px solid #b0b0b0; */
+	}
+
+	#icon_only_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon and text START
+  ==================================================== */
+	/* style for widget */
+	#full_menu_widget {
+		background-color: #001219;
+	}
+
+	/* style for QPushButton */
+	#full_menu_widget QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color: #788596;
+	}
+
+	#full_menu_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#full_menu_widget QPushButton:checked {
+		color: #fff;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for dados_clima
+  ==================================================== */
+	#dados_clima_label {
+		background-color: white;
+		color: #001219;
+		font: 12pt "Open Sans";
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for latitude
+  ==================================================== */
+	#lat_box {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#lat_box:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#lat_box:focus {
+		border: 1px solid #0A9396;
+	}
+
+	#lat_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+
+	#coord_model {
+		font: 9pt "Open Sans SemiCondensed";
+		color: #9a8c98;
+		padding-left: 2px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for longitude
+  ==================================================== */
+	#log_box {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#log_box:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#log_box:focus {
+		border: 1px solid #0A9396;
+	}
+
+	#log_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+
+	#coord_model_2 {
+		font: 9pt "Open Sans SemiCondensed";
+		color: #9a8c98;
+		padding-left: 2px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for cidade de projeto
+  ==================================================== */
+	#cid_proj_box {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#cid_proj_box:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#cid_proj_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+
+	#label_4 {
+		font: 9pt "Open Sans SemiCondensed";
+		color: white;
+		padding-left: 2px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for cidade de projeto
+  ==================================================== */
+	#rad_lat_box {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#rad_lat_box:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#rad_lat_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+
+	#label_3 {
+		font: 9pt "Open Sans SemiCondensed";
+		color: white;
+		padding-left: 2px;
+	}
+	
+	
+/*= END
+  ==================================================== */
+
+/*= Style for mes combobox
+  ==================================================== */
+	#mes_cbox {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		width: 100px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#mes_cbox:drop-down {
+		subcontrol-position: center right;
+		width: 0px
+	}
+
+	#mes_cbox QAbstractItemView {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: 1px solid #001219;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		selection-color: white;
+  		selection-background-color: #0A9396;
+	}
+
+	#mes_cbox:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#mes_cbox:drop-down:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#mes_cbox:focus {
+		border: 1px solid #0A9396;
+	}
+
+	#mes_cbox:disabled {
+		background-color: #adb5bd;
+		color: white;
+
+	}
+
+	#mes_label {
+		font: 8pt "Open Sans";
+		border: none;
+		border-radius: 3px;
+		max-height: 22px;
+		max-width: 100px;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for verao checkbox
+  ==================================================== */
+	#verao_box {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		width: 44px;
+		height: 22px;
+	}
+
+	#verao_box::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#verao_box::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#verao_box::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#verao_box::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for inverno checkbox
+  ==================================================== */
+	#inverno_box {
+		color: #001219;
+		font: 10pt "Open Sans SemiCondensed";
+		border: none;
+		border-radius: 3px;
+		width: 44px;
+		height: 22px;
+	}
+
+	#inverno_box::indicator {
+    	background-color: white;
+		border: 1px solid #001219;
+		border-radius: 3px;
+		width: 10px;
+    	height: 10px;
+	}
+
+	#inverno_box::indicator:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#inverno_box::indicator:checked:hover {
+    	background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#inverno_box::indicator:checked {
+    	image: url('icon/checkmark.svg')
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for dados_ambiente
+  ==================================================== */
+	#dados_ambiente_label {
+		background-color: white;
+		color: #001219;
+		font: 12pt "Open Sans";
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for temperatura
+  ==================================================== */
+	#temp_box {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#temp_box:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#temp_box:focus {
+		border: 1px solid #0A9396;
+	}
+
+	#temp_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for umidade
+  ==================================================== */
+	#umidade_box {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#umidade_box:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#umidade_box:focus {
+		border: 1px solid #0A9396;
+	}
+
+	#umidade_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+		width: 150px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for hora inicial
+  ==================================================== */
+	#hi_box {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#hi_box:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#hi_box:focus {
+		border: 1px solid #0A9396;
+	}
+
+	#hi_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+
+	#hora_model {
+		font: 9pt "Open Sans SemiCondensed";
+		color: #9a8c98;
+		padding-left: 2px;
+	}
+	
+	
+/*= END
+  ==================================================== */
+
+/*= Style for hora final
+  ==================================================== */
+	#hf_box {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#hf_box:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#hf_box:focus {
+		border: 1px solid #0A9396;
+	}
+
+	#hf_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+
+	#hora_model_2 {
+		font: 9pt "Open Sans SemiCondensed";
+		color: #9a8c98;
+		padding-left: 2px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for zona
+  ==================================================== */
+	#zona_id {
+		background-color: white;
+		color: #001219;
+		font: 9pt bold "Open Sans SemiCondensed";
+		border:1px solid #001219;
+		border-radius: 3px;
+		height: 22px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	#zona_id:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#zona_id:focus {
+		border: 1px solid #0A9396;
+	}
+
+	#zona_label {
+		font: 8pt "Open Sans";
+		border:none;
+		border-radius: 3px;
+		max-height: 22px;
+	}
+	
+/*= END
+  ==================================================== */
+
+/*= Style for qtablewidget da zona
+  ==================================================== */
+	#tabela_zona {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: none;
+	}
+
+	#tabela_zona QHeaderView::section {
+		color: white;
+		background-color: #0A9396;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+	}
+
+	#tabela_zona::item {
+		border: 1px solid #001219;	
+	}
+
+	#tabela_zona::item:selected {
+		background-color: rgba( 86, 101, 115, 0.5);	
+		color: #001219;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for zona button
+  ==================================================== */
+	#zona_ok_btn_1 {
+		background-color: white;
+		border: none;
+		border-radius: 15px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#zona_ok_btn_1:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#zona_ok_btn_1:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for qtablewidget de resultado
+  ==================================================== */
+	#tabela_resultado {
+		background-color: white;
+		color: #001219;
+		font: 9pt "Open Sans SemiCondensed";
+		border: none;
+	}
+
+	#tabela_resultado QHeaderView::section {
+		color: white;
+		background-color: #0A9396;
+		font: 8pt "Open Sans";
+		border: 1px solid #001219;
+	}
+
+	#tabela_resultado::item {
+		border: 1px solid #001219;		
+	}
+
+	#tabela_resultado::item:selected {
+		background-color: rgba( 86, 101, 115, 0.5);	
+		color: #001219;
+	}
+
+
+/*= END
+  ==================================================== */
+
+/*= Style for title label - dialog
+  ==================================================== */
+	#title {
+		font: 10pt "Open Sans";
+		border:none;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for novo button - dialog
+  ==================================================== */
+	#novo_proj {
+		background-color: rgba(0, 95, 115, 0.15);
+		border: 1px solid #001219;
+		font: 12pt "Open Sans SemiCondensed Medium";
+		border-radius: 7px;
+		width: 15px;
+		height: 25px;
+	}
+
+	#novo_proj:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#novo_proj:pressed {
+		background-color: gray;
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for load button - dialog
+  ==================================================== */
+	#load_proj {
+		background-color: rgba(0, 95, 115, 0.15);
+		border: 1px solid #001219;
+		font: 12pt "Open Sans SemiCondensed Medium";
+		border-radius: 7px;
+		width: 15px;
+		height: 25px;
+	}
+
+	#load_proj:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#load_proj:pressed {
+		background-color: gray;
+	}
+
+	#load_proj:disabled {
+		background-color: gray;
+		color: lightgray
+	}
+
+/*= END
+  ==================================================== */
+
+/*= Style for ok_button - dialog
+  ==================================================== */
+	#ok_button {
+		width: 5px;
+		height: 5px;
+	}
+
+
+/*= END
+  ==================================================== */

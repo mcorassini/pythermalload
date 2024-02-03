@@ -1,0 +1,70 @@
+/*= Style for mainwindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: #E9D8A6;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for the new project button
+  ==================================================== */
+	#new_proj_btn {
+		padding: 5px;
+		width: 200px;
+		height: 50px;
+		font: 15pt "Noto Sans Lao";
+		background-color: #001219;
+		border-style: outset;
+		border-width: 0px;
+		border-radius: 10px;
+		border-color: gray;
+		color: white;
+	}
+
+	#new_proj_btn:hover {
+		background-color: #005F73;
+	}
+
+	#new_proj_btn:pressed {
+		color: #E9D8A6;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for the load project button
+  ==================================================== */
+	#load_proj_btn {
+		padding: 5px;
+		width: 200px;
+		height: 50px;
+		font: 15pt "Noto Sans Lao";
+		background-color: #001219;
+		border-style: outset;
+		border-width: 0px;
+		border-radius: 10px;
+		border-color: gray;
+		color: white;
+	}
+
+	#load_proj_btn:disabled {
+		padding: 5px;
+		width: 200px;
+		height: 50px;
+		font: 15pt "Noto Sans Lao";
+		background-color: #d5bdaf;
+		border-style: outset;
+		border-width: 0px;
+		border-radius: 10px;
+		border-color: gray;
+		color: gray;
+	}
+
+	#load_proj_btn:hover {
+		background-color: #005F73;
+	}
+
+	#load_proj_btn:pressed {
+		color: #E9D8A6;
+	}
+/*= END
+  ==================================================== */
